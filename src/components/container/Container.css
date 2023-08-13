@@ -1,0 +1,39 @@
+.container {
+    width: 1250px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.root-child {
+    position: relative;
+}
+
+.background-top,
+.background-bottom {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1583px;
+    z-index: -1;
+}
+
+.background-top {
+    height: 815px;
+}
+
+.background-bottom {
+   height: 26%;
+}
+
+.background-top {
+    background-image: url('../../assets/images/containerImages/background-top.png');
+    top: 0;
+    left: 0;
+}
+
+.background-bottom {
+    background-image: url('../../assets/images/containerImages/background-bottom.png');
+    bottom: 0;
+    left: 0;
+}

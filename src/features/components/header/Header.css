@@ -1,0 +1,50 @@
+.header {
+    padding: 20px 0;
+}
+
+.sing-in,
+.sing-up {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.sing-in {
+    width: 100px;
+    height: 40px;
+    border-radius: 68px;
+    color: #8794BA;
+    border: 0px solid transparent;
+    transition: all .5s linear;
+}
+
+.sing-up {
+    width: 161px;
+    height: 40px;
+    border: 1px solid #8794BA;
+    border-radius: 68px;
+    padding: 10px 53px;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.sing-up::after {
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 68px;
+    background-color: #8794BA;
+    transition: all .5s linear;
+    z-index: -1;
+}
+
+.sing-up:hover::after {
+    width: 100%;
+}
+
+.sing-in:hover {
+    border: 1px solid #8794BA;
+}

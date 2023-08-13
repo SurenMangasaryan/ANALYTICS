@@ -1,0 +1,12 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+}
+
+.box-title,
+.box-description {
+    font-size: 16px;
+    align-items: center;
+}

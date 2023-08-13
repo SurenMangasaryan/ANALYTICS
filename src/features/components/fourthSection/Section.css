@@ -1,0 +1,137 @@
+.plans {
+    margin-top: 100px;
+}
+
+.plans-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+
+.price-boxes {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-box {
+    width: 340px;
+    height: 440px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    background-color: #0F1F4B;
+    border: 1px solid #0F1F4B;
+}
+
+.price-btn,
+.second-price-btn,
+.thirth-price-btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 68px;
+    padding: 10px 80px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.price-btn,
+.thirth-price-btn {
+    border: 1px solid #2A407C;
+    background-color: transparent;
+    color: white;
+}
+
+.second-price-btn {
+    border: 1px solid #EF2A82;
+    color: white;
+    transition: all .5s linear;
+    background-color: #EF2A82;
+}
+
+.price-btn::after {
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 68px;
+    transition: all .5s linear;
+    background-color: #2A407C;
+    z-index: -1;
+}
+
+.thirth-price-btn::after {
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 68px;
+    transition: all .5s linear;
+    background-color: #2A407C;
+    z-index: -1;
+}
+
+.price-btn:hover::after {
+    width: 100%;
+}
+
+.thirth-price-btn:hover::after {
+    width: 100%;
+}
+
+.second-price-btn:hover {
+    background-color: white;
+    color: #0F1F4B;
+}
+
+.title-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.title-desc h3 {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price span {
+    padding-top: 20px;
+    color: white;
+}
+
+.price h2 {
+    color: white;
+}
+
+.hr {
+    background-color: #2A407C;
+    width: 220px;
+    height: 1px;
+}
+
+.plans-hr{
+    height: 3px;
+    margin: 50px 0;
+    background-color: #2A407C;
+}

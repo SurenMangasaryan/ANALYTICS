@@ -1,0 +1,24 @@
+.tryforfree-header{
+    padding: 50px 0;
+}
+
+.titles-list{
+    display: flex;
+    column-gap: 50px;
+}
+
+.titles-list img{
+    width: 40px;
+    height: 40px;
+}
+
+.titles-list{
+    border: 1px dashed #7B61FF;
+    padding: 20px;
+}
+
+.imgs-list{
+    width: 280px;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,20 @@
+.dashboard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard-left-panel,
+.dashboard-right-panel {
+    width: 50%;
+}
+
+.dashboard-right-panel {
+    margin-right: 6px;
+}
+
+.dashboard-left-panel {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}

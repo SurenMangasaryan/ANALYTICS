@@ -1,0 +1,29 @@
+.thirth-section {
+    margin: 80px 0;
+}
+
+.panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.panel-left,
+.panel-right {
+    width: 50%;
+}
+
+.panel-left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.second-panel-img {
+    margin-left: -45px;
+}
+
+.second-panel-texts {
+    margin-right: -33px;
+}
